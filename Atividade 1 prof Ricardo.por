@@ -1,13 +1,26 @@
 programa {
   funcao inicio() {
-    real num1, num2, resultado
+  
+    inteiro num1, num2, r
+    caracter op
 
-    escreva("Me informe dois numeros para fazer uma subtracão: ", "\n")
+    escreva("Digite o primeiro valor: ", "\n")
     leia(num1)
+    escreva("Agora escreva uma operacão: + ou - ", "\n")
+    leia(op)
+    escreva("Digite o segnudo valor: ", "\n")
     leia(num2)
 
-    resultado = num1 - num2 
-    escreva("O resultado dessa subtracão é: ", resultado)
-    
-  }
+    escolha(op) {
+            caso '+' : r = num1 + num2
+            escreva(" O resultado essa conta é: ", r ) pare 
+            
+            caso '-' : r = num1 - num2
+            escreva(" O resultado essa conta é: ", r ) pare 
+            
+            caso contrario: escreva("ERROR.")
+  
+    }
+
+    }
 }
