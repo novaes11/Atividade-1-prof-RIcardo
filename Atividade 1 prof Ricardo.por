@@ -10,7 +10,8 @@ programa {
     leia(op)
     escreva("Digite o segnudo valor: ", "\n")
     leia(num2)
-    escreva("parabens") //apagar essa parte dps
+    escreva("parabens")         //apagar essa parte dps
+    escreva("jhow é viado")     //apagar essa parte dps
 
     escolha(op) {
             caso '+' : r = num1 + num2
@@ -31,7 +32,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 317; 
+ * @POSICAO-CURSOR = 381; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
