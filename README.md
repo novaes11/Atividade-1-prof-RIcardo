@@ -1,5 +1,5 @@
 
-cont int LED_Vespa = 15;
+const int LED_Vespa = 15;
 
 void setup() {
  pinMode(LED_Vespa, OUTPUT);
